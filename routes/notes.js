@@ -1,4 +1,5 @@
 const notes = require("express").Router();
+const { readAndAppend, readFromFile } = require("../helpers/fsUtils");
 
 // GET /api/notes should read the db.json file and return all saved notes as JSON
 notes.get("/", (req, res) =>

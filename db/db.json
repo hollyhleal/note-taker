@@ -1,6 +1,22 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "title": "Holly's Note",
+        "text": "Hi!"
+    },
+    {
+        "title": "Another note",
+        "text": "Hi!"
+    },
+    {
+        "title": "One More Note",
+        "text": "note text here"
+    },
+    {
+        "title": "This is a new note",
+        "text": "note text goes here"
     }
 ]
