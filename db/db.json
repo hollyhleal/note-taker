@@ -1,27 +1,22 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Holly's Note",
-        "text": "Hi!"
-    },
-    {
-        "title": "Another note",
-        "text": "Hi!"
-    },
-    {
-        "title": "One More Note",
-        "text": "note text here"
-    },
-    {
-        "title": "This is a new note",
-        "text": "note text goes here"
+        "title": "This is a note with new id",
+        "text": "new id",
+        "id": "3039a9e2-c8a8-45db-b614-8e04fab6530e"
     },
     {
         "title": "Take out the trash",
-        "text": "It smells",
-        "note_id": "dd2967dd-22b6-4a38-b6f1-f42b525af26b"
+        "text": "on Sunday",
+        "id": "f3f470c6-5837-4bdc-8fae-9f5111574382"
+    },
+    {
+        "title": "Do laundry",
+        "text": "on Saturday",
+        "id": "698215d8-c17d-43cb-8cf6-8695620e280a"
+    },
+    {
+        "title": "Feed the cat",
+        "text": "Every day, twice a day",
+        "id": "70bc9287-b72d-48de-a99f-163b018cffc1"
     }
 ]
