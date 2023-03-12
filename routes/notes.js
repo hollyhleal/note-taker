@@ -1,3 +1,4 @@
+// Router is a class constructor that returns a router object
 const notes = require("express").Router();
 
 // Import helper functions and dependencies
