@@ -39,4 +39,18 @@ notes.post("/", (req, res) => {
   }
 });
 
+// TO DO: DELETE /api/notes/:id should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the db.json file, remove the note with the given id property, and then rewrite the notes to the db.json file.
+// DELETE /api/notes/${id} should delete the clicked note
+// notes.delete("/notes/:id", (req, res) => {
+//   // read JSON file - var toDelete = fs.readFile()
+//   var toDelete = JSON.parse(readFromFile("./db/db.json").toString());
+//   toDelete = toDelete.filter(function (note) {
+//     if (note.id === req.params.id) {
+//       res.json(handleNoteDelete(id));
+//     } else if (error) {
+//       throw error;
+//     }
+//   });
+// });
+
 module.exports = notes;
